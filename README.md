@@ -7,7 +7,7 @@ The purpose of this framework is to help developers better build Android compone
  ```
  dependencies {
   ...
-  implementation 'com.github.zxbear.ad_kbase:lib_base:v1.0.1'
+  implementation 'com.github.zxbear.ad_kbase:lib_base:v1.0.2'
 }
  ```
  **II.Building the MVP Model**
@@ -28,10 +28,10 @@ The purpose of this framework is to help developers better build Android compone
  ```
  dependencies {
   ...
-  annotationProcessor 'com.github.zxbear.ad_kbase:mvp_compiler:v1.0.1'
+  annotationProcessor 'com.github.zxbear.ad_kbase:mvp_compiler:v1.0.2'
 }
  ```
- **III.USE MVP MUDULE** 
+ **III.use MVP module** 
 1. annotation in you new class
 ```
 @MvpAct(onCreate = PARAS.CREATE , path = "com.zxbear.testbase")
