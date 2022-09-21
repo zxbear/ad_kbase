@@ -42,16 +42,20 @@ public class MainActivity {
 2. Automatically build directory instructions
 ```
 module
- -src
-  -main
-   -java
-    -[defaule pack or you setting path]
-     -constract - classNameConstract.java
-     -presenter - classNamePresenter.java
-     -className.java(this is Activity)
-   -res
-    -layout - add activity_classname_layout.xml
-   -AndroidManifest.xml - add activity note
+ --src
+   --main
+     --java
+       --[defaule pack or you setting path]
+         --constract
+           --MainConstract.java
+         --presenter 
+           --MainPresenter.java
+         --MainActivity.java
+     --res
+       --layout
+         --activity_main_layout.xml
+     --AndroidManifest.xml 
+       --{<activity name:".MainActivity />"}
 ```
 
  
