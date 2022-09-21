@@ -3,7 +3,7 @@ The purpose of this framework is to help developers better build Android compone
 ```
 
 **I.Necessary Configuration**
- Adding dependencies and configurations in module build.gradle
+1. Adding dependencies and configurations in module build.gradle
  ```
  dependencies {
   ...
