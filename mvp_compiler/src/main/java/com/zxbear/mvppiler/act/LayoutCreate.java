@@ -1,7 +1,6 @@
 package com.zxbear.mvppiler.act;
 
 
-
 import com.zxbear.mvppiler.print.ElementPrint;
 
 import org.w3c.dom.Document;
@@ -26,6 +25,10 @@ public class LayoutCreate {
     public void initParas(String path, String name) {
         this.xmlPath = path;
         this.xmlName = name;
+        File layoutPath = new File(path);
+        if (!layoutPath.exists()) {
+            layoutPath.mkdirs();
+        }
         File file = new File(path + "/" + xmlName + ".xml");
         if (file.exists()) {
             ElementPrint.getInstance().printNote("LayoutCreate => The " + xmlName + ".xml" + " exists");
