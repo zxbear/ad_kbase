@@ -1,0 +1,5 @@
+rootProject.name = "ad_kbase"
+include ':app'
+include ':lib_base'
+include ':mvp_annotation'
+include ':mvp_compiler'

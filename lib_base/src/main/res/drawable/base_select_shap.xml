@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--TextView设置background可配合textColor动态改变-->
+    <!--未按下点击-->
+    <item android:state_pressed="false">
+        <!-- 边框设置 -->
+        <shape android:shape="rectangle">
+            <!-- 主体背景颜色值 -->
+            <solid android:color="@android:color/white" />
+            <!-- 边框的宽度，颜色 -->
+            <stroke android:width="2px" android:color="@color/base_4285F4" />
+            <!-- 边框的四角弧度 -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!--按下点击-->
+    <item android:state_pressed="true">
+        <!-- 边框设置 -->
+        <shape android:shape="rectangle">
+            <!-- 主体背景颜色值 -->
+            <solid android:color="@color/base_4285F4" />
+            <!-- 边框的宽度，颜色 -->
+            <stroke android:width="2px" android:color="@color/base_4285F4" />
+            <!-- 边框的四角弧度 -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>

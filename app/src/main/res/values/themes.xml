@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ad_kbase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/base_title_bg_nomor</item>
+        <item name="colorAccent">@color/base_title_bg_nomor</item>
+    </style>
+</resources>

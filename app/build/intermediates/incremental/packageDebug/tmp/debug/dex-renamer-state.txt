@@ -1,0 +1,4 @@
+#Wed Sep 21 10:53:40 GMT+08:00 2022
+base.0=D\:\\as_myself_project\\ad_kbase\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

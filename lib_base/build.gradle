@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+    id 'com.github.dcendents.android-maven'
+}
+
+android {
+    compileSdk androidID.compileSdk
+
+    defaultConfig {
+        minSdk androidID.minSdk
+        targetSdk androidID.targetSdk
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    dependenciesID.each { k, v -> implementation v }
+    api project(":mvp_annotation")
+}

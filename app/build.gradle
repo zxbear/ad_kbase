@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk androidID.compileSdk
+
+    defaultConfig {
+        applicationId androidID.applicationId
+        minSdk androidID.minSdk
+        targetSdk androidID.targetSdk
+        versionCode androidID.versionCode
+        versionName androidID.versionName
+
+        //设置moduleName
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ moduleName : project.getName() ]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    dependenciesID.each{k,v -> implementation v}
+    implementation project(":lib_base")
+    annotationProcessor project(":mvp_compiler")
+}

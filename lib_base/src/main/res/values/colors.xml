@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- baseView 使用使用的color资源-->
+    <color name="base_linecolor">#d9d9d9</color>  <!-- 分割线颜色 -->
+    <color name="base_00695C">#FF4285F4</color>
+    <color name="base_dddddd">#dddddd</color>
+    <color name="base_4285F4">#4285F4</color>
+    <color name="base_sp_item_color">#e6e6e6</color>
+    <color name="base_sp_item_color2">#bfbfbf</color>
+    <color name="base_sppop_color1">#e6e6e6</color>
+    <color name="base_title_bg_nomor">#FF4285F4</color>
+    <color name="base_cardview">#C6C6C6</color>
+
+    <color name="base_white">#ffffff</color>
+    <color name="base_transparent">#0000</color><!-- 透明 -->
+    <color name="base_green">#9EEA6A</color>
+    <color name="base_black">#000000</color>
+    <color name="base_blue">#0000FF</color>
+    <color name="base_gray">#e7e4e4</color>
+    <color name="base_blueDark">#4285f4</color>
+    <color name="base_red">#df463c</color>
+</resources>

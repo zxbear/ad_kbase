@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'com.github.dcendents.android-maven'
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation auto_service
+    annotationProcessor auto_service
+    implementation incap.runtime
+    annotationProcessor incap.processor
+
+    implementation javapeot
+    implementation project(":mvp_annotation")
+}
