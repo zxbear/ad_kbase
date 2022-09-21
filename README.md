@@ -34,7 +34,7 @@ The purpose of this framework is to help developers better build Android compone
  **III.USE MVP MUDULE** 
 1. annotation in you new class
 ```
-@MvpAct(onCreate = PARAS.CREATED , path = "com.zxbear.testbase")
+@MvpAct(onCreate = PARAS.CREATE , path = "com.zxbear.testbase")
 public class MainActivity {
  ...
 }
