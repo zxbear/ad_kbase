@@ -84,7 +84,7 @@ public class MvpSet {
         String resPath = mainPath + "/res/layout";
         lc = new LayoutCreate();
         lc.initParas(resPath, xmlName);
-        //出实话activity注册
+        //初始化activity注册
         rAct = new RegisteredAct();
         rAct.init(mainPath, mainClassName, tE.getEnclosingElement().toString());
     }
