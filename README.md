@@ -44,17 +44,17 @@ public class MainActivity {
 module
  --src
    --main
-     --java
-       --[defaule pack or you setting path]
-         --constract
-           --MainConstract.java
-         --presenter 
-           --MainPresenter.java
-         --MainActivity.java
-     --res
-       --layout
-         --activity_main_layout.xml
-     --AndroidManifest.xml 
+     |--java
+     |  |--[defaule pack or you setting path]
+     |  |  |--constract
+     |  |  |  |--MainConstract.java
+     |  |  |--presenter 
+     |  |  |  |--MainPresenter.java
+     |  |  |--MainActivity.java
+     |--res
+     |  |--layout
+     |    --activity_main_layout.xml
+     |--AndroidManifest.xml 
        --{<activity name:".MainActivity />"}
 ```
 
